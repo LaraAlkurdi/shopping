@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:impty_project/ui/shared/utils.dart';
 
 class CustomText extends StatelessWidget {
   const CustomText({
