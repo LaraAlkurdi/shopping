@@ -7,7 +7,7 @@ class SplashController extends GetxController {
     //  Future.delayed(Duration(seconds: 3))
     //     .then((value) {
     //        if (storage.getFirstLunch())
-    //        Get.off(IntroView());
+    //    Get.off(signinView());
     //         else{
     //            Get.off(storage.isLoggedIn? MainView():LandingView());
     //            }

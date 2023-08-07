@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:impty_project/core/enums/connectivity_status.dart';
 import 'package:impty_project/core/translation/app_translation.dart';
 import 'package:impty_project/core/utils/general_util.dart';
+import 'package:impty_project/ui/views/signin/signin_view.dart';
 import 'package:impty_project/ui/views/splash_screen/splash_screen_view.dart';
 import 'package:provider/provider.dart';
 
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
             theme: ThemeData(
               primarySwatch: Colors.blue,
             ),
-            home: SplashScreenView()));
+            home: SignView()));
   }
 }
 
