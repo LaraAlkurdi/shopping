@@ -6,8 +6,7 @@ class CustomButton extends StatelessWidget {
   const CustomButton(
       {Key? key,
       this.onPressed,
-      this.backgroundColor =
-          const Color.fromRGBO(252, 96, 17, 1), //لازم شيل لللون
+      this.backgroundColor,
       required this.text,
       this.textColor = const Color.fromRGBO(252, 252, 252, 1), //لازم شيل اللون
       this.borderColor,
@@ -47,8 +46,8 @@ class CustomButton extends StatelessWidget {
         ),
         style: ElevatedButton.styleFrom(
           fixedSize: Size(size.width, size.width * 0.13),
-          shape: StadiumBorder(),
-          backgroundColor: backgroundColor ?? AppColors.mainOrangeColor,
+          // shape: StadiumBorder(),
+          backgroundColor: backgroundColor ?? AppColors.mainPurpleColor,
           side: borderColor != null
               ? BorderSide(
                   width: 1.0,
